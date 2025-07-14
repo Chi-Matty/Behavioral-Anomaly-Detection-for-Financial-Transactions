@@ -52,7 +52,7 @@ Each metric was assigned a weight, and transactions were classified as Suspiciou
 
 ## 📬 Contact
 
-📧 [Your Email](mathiasmichael2@gmail.com)  
+📧 [Email](mathiasmichael2@gmail.com)  
 🔗 [LinkedIn](inkedin.com/in/michael-matty)
 
 
