@@ -6,9 +6,9 @@ A fraud-focused analysis of transaction anomalies using logic-based thresholds a
 
 This project focuses on anomaly detection in financial transactions using Python and Excel. Suspicious activities were identified using a scoring model based on the following metrics:
 
-    Login attempts ≥ 4
-    Transaction duration < 60 seconds
-    Transaction amount > 2× the average for that account
+    • Login attempts ≥ 4
+    • Transaction duration < 60 seconds
+    • Transaction amount > 2× the average for that account
 
 Each metric was assigned a weight, and transactions were classified as Suspicious or Legitimate based on total anomaly score. The analysis explored suspicious activity trends over months, customer occupations, transaction channels, and age groups. All findings were visualised and summarised and outputs were exported to Excel for external reporting.
 
@@ -34,10 +34,10 @@ Each metric was assigned a weight, and transactions were classified as Suspiciou
 
 - Implement real-time flagging rules that monitor:
 
-        - Login attempts ≥ 4
-        - Transaction duration < 60 seconds
-        - Transaction value > 2× account average
-        - Online channel usage
+        • Login attempts ≥ 4
+        • Transaction duration < 60 seconds
+        • Transaction value > 2× account average
+        • Online channel usage
 
 - Segment risk protocols by age and occupation. Focus on 25–44 age group and Engineering professionals, who show disproportionately high anomaly patterns.
 
